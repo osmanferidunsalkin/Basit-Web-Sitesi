@@ -1,0 +1,94 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,black,rgb(75, 73, 73),black);
+    color: white;
+   font-family: 'Inter', sans-serif;
+}
+.Wraper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ padding-left: 50px;
+  padding-right: 50px;
+     background:transparent;
+    color: white;
+    border: 2px  black inset;
+    box-shadow: 0 0 20px black ;
+    border-radius: 20px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+div p{
+display: inline;
+    padding: 10px;
+    border: 1px solid white;
+transition: all 0.5s ease;
+    font-size: 20px;
+    border-radius: 60px;
+   
+}
+div a{
+text-decoration: none;
+color: white;
+   
+}
+.linkedin p:hover{
+
+    background-color: #0077B5;
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.github p:hover,.game p:hover{
+
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+     border: none;
+}
+.instagram p:hover{
+
+ background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+     border: none;
+}
+.tiktok p:hover{
+
+background: linear-gradient(135deg, #69C9D0, #EE1D52);
+
+    color:black;
+    cursor: pointer;
+    border-radius: 10px;
+     border: none;
+}
+.facebook p:hover{
+
+background-color: #1877F2;
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+     border: none;
+}
+div{
+
+padding: 20px;
+}
